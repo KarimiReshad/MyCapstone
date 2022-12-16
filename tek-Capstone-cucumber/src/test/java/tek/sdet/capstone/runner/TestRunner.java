@@ -9,7 +9,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@test",
+		tags = "@withAddress",
 		features = ("classpath:features"),
 		glue ="tek.sdet.capstone",
 		dryRun = false,

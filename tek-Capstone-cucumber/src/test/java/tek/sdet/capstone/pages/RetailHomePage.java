@@ -13,6 +13,7 @@ public class RetailHomePage extends BaseSetup{
 
 	}
 
+	
 	@FindBy(xpath = "//a[@class='top-nav__logo active']")
 	public WebElement logo;
 
